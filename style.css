@@ -318,9 +318,9 @@ main h1{
     display: none;
 }
 body.dark-mode .brand-dark{
-    display: flex;
+    display: block;
 }
-body.drak-mode .brand-light{
+body.dark-mode .brand-light{
     display: none;
 }
 .dark-mode-btn{
@@ -342,7 +342,7 @@ body.drak-mode .brand-light{
     font-size: 1.5rem;
     position: absolute;
 }
-.dark-mode.btn i:last-child{
+.dark-mode-btn i:last-child{
     transform: translateY(150%);
 }
 body.dark-mode .dark-mode-btn i:last-child{
